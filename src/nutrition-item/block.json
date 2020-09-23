@@ -1,0 +1,15 @@
+{
+	"name": "ideabox/nutrition-item",
+	"title": "Nutrition Item",
+	"category": "widgets",
+	"icon": "chart-pie",
+	"description": "Add a nutrition item in Nutrition Facts.",
+	"textdomain": "ib-nutrition-facts",
+	"keywords": [ "nutrition", "facts label", "recipe", "food" ],
+	"supports": {
+		"html": false,
+		"align": false,
+		"reusable": false,
+		"className": false
+	}
+}

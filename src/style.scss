@@ -1,0 +1,74 @@
+[id^="ib-nutrition-facts-"] {
+	position: relative;
+}
+.ib-nutrition-facts-block {
+	padding: 20px;
+	background: #fff;
+	color: #323232;
+	border: 1px solid var(--separator, #323232);
+	.ib-nutrition-facts-title {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.ib-nutrition-facts-spacer {
+		margin: 0 5px;
+	}
+	.ib-nutrition-facts-unit {
+		margin-left: 5px;
+		div {
+			display: inline;
+		}
+	}
+	.ib-nutrition-facts-separator {
+		background-color: var(--separator, #323232);
+		&.is-heavy {
+			height: 14px;
+			margin: 10px 0;
+		}
+		&.is-medium {
+			height: 8px;
+			margin: 5px 0;
+		}
+		&.is-lite {
+			height: 1px;
+    		margin: 5px 0;
+		}
+	}
+	.ib-nutrition-facts-per-serving {
+		font-size: 16px;
+	}
+	.ib-nutrition-facts-daily-value {
+		text-align: right;
+		font-size: 16px;
+	}
+	.ib-nutrition-facts-footer-note {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	.ib-nutrition-facts-item {
+		.ib-nutrition-facts-item-inner {
+			display: flex;
+			width: 100%;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.ib-nutrition-facts-unit {
+			margin-left: 0;
+		}
+	}
+	.ib-nutrition-facts-sub-items {
+		padding-left: 30px;
+		.ib-nutrition-facts-item:last-of-type {
+			.ib-nutrition-facts-separator {
+				display: none;
+			}
+		}
+	}
+	.ib-nutrition-facts-items {
+		.ib-nutrition-facts-item:last-of-type {
+			.ib-nutrition-facts-separator {
+				display: none;
+			}
+		}
+	}
+}

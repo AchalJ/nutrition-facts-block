@@ -1,0 +1,16 @@
+{
+	"name": "ideabox/nutrition-facts",
+	"title": "Nutrition Facts",
+	"category": "widgets",
+	"icon": "chart-pie",
+	"description": "A block to display nutrition facts label for a recipe.",
+	"textdomain": "ib-nutrition-facts",
+	"keywords": [ "nutrition", "facts label", "recipe", "food" ],
+	"supports": {
+		"html": false,
+		"align": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
